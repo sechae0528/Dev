@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>ex14</title>
+</head>
+<body>
+<script >
+	var calculator = {
+		add: function(x,y) {return x+y},
+		subtract: function(x,y) {return x-y},
+		multiply: function(x,y) {return x*y},
+		divide: function(x,y) {return x/y},
+
+	};
+	function operate1(operator, op1, op2) {
+		return operator(op1, op2);
+
+	}
+	function operate2(operatorName, op1, op2) {
+		if((typeof calculator[operatorName]) == 'function'){
+			return calculator[operatorName](op1,op2);
+		} else {
+			throw new Error('operate2():' + operatorName + ' 은 정의되지않은 연산자입니다!!!');
+
+		}
+
+	}//
+
+	var result1 = operate1(calculator.add, operate1(calculator.subtract, 3, 8),
+		operate1(calculator.multiply, 2, 5));
+	// (3-8) + ( 2*5) = -5 + 10 = 5
+    document.writeln('result1=' + result1 + "<br>");
+	try{
+		var result2 = operate2 = operate2('add', operate2('subtract', 3, 8), operate2('multiply', 2,5));
+		document.writeln('result2=' + result2 + "<br>");
+	}catch(e){
+		document.writeln(e + "<br>");
+	}
+	var obj = {};
+	console.log(obj);
+</script>
+</body>
+</html>

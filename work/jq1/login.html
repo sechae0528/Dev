@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>jQuery</title>
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+	<script>
+		$(function(){
+			var btnlogin = $("#btnlogin");
+			btnlogin.click(function(){
+				var id = $("#id");
+				var pw = $("#pw");
+				if(id.val() ==""){
+					alert("아이디를 꼭 입력하세요!!!");
+					id.focus();
+					return;
+				}
+				if(pw.val() ==""){
+					alert("비밀번호를를 꼭 입력하세요!!!");
+					pw.focus();
+					return;
+				}
+                frm1.submit();
+
+			});
+		});
+	</script>
+</head>
+<body>
+<h1>jQuery Exam</h1>
+<form name="frm1" method="post" action="">
+<table border="1" width="300">
+	<tr>
+		<td>ID</td>
+		<td><input type="text" name="id" id="id"></td>
+	</tr>
+	<tr>
+		<td>PW</td>
+		<td><input type="password" name="pw" id="pw"></td>
+	</tr>
+	<tr>
+
+		<td colspan="2">
+			<input type="button" value="로그인" id="btnlogin">
+			<input type="reset" value="취소">
+		</td>
+	</tr>
+</table>
+
+</form>
+
+</body>
+</html>

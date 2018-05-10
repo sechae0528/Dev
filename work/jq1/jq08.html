@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>jQuery</title>
+	<style type="text/css">
+		.selected{
+			color: blue
+		}
+	</style>
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+	<script>
+		$(function(){
+
+			$("p:last").addClass("selected"); //위에 선언된 것을 적용 p 마지막에만 적용
+		});
+	</script>
+</head>
+<body>
+<h1>jQuery Exam</h1>
+<p>Hello</p>
+<p>and</p>
+<p>Goodbye</p>
+
+</body>
+</html>

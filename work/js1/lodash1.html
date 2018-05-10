@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>lodash1</title>
+	<script src="https://cdn.jsdelivr.net/lodash/4.17.4/lodash.js"></script>
+</head>
+<body>
+
+
+<script>
+    var balls = _.range(1, 46); //1~45까지 포함
+
+    var myballs = _.sampleSize(balls, 6);
+
+    myballs = _.sortBy(myballs);
+    console.log(myballs);
+
+    document.writeln( _.sortBy(_.sampleSize(_.range(1,46), 6))  );
+</script>
+</body>
+</html>

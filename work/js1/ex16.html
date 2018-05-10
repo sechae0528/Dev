@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>ex16</title>
+</head>
+<body>
+<script>
+	function main() {
+		var array = [];
+		for(var i = 0; i < 10; i++){
+			array[i] = Math.ceil(Math.random()*45);
+		}//for
+		work(array, even, odd);
+	}//main
+	function even(idx, num) {
+		document.writeln((idx+1) + "번째 데이터는 짝수" + num + "입니다<br>");
+	}//even
+	function odd(idx, num) {
+		document.writeln((idx+1) + "번째 데이터는 홀수" + num + "입니다<br>");
+	}//odd
+    function work(data, callback1, callback2){
+        for(var i = 0; i < data.length; i++){
+        	if(data[i] % 2 == 0){
+        		callback1(i, data[i]);
+              } else {
+              	 callback2(i, data[i]);
+              }
+        }//for
+    }//work
+    main();
+</script>
+</body>
+</html>

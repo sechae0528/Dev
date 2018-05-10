@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>jQuery</title>
+	<style type="text/css">
+		.blue{
+			color: blue
+		}
+	</style>
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+	<script>
+		$(function(){
+
+			$("p:even").removeClass("blue");
+		});
+	</script>
+</head>
+<body>
+<h1>jQuery Exam</h1>
+<p class="blue">Hello</p>
+<p class="blue">and</p>
+<p class="blue">then</p>
+<p class="blue">Goodbye</p>
+
+</body>
+</html>

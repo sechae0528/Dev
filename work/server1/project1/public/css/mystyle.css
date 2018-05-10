@@ -1,0 +1,26 @@
+#home{
+	text-align: center;
+	background: url('../images/background_viewsource.png');
+}
+
+#home img{
+	width: 50%;
+	max-width: 200px;
+}
+
+#home .ui-controlgroup {
+	width: 60%;
+	margin: 0 auto;
+	margin-top: 20px;
+	max-width: 250px;
+}
+
+.ui-icon-blog {
+	background-image: url('../images/icon_blog.png');
+}
+.ui-icon-video {
+	background-image: url('../images/icon_video.png');
+}
+.ui-icon-sns {
+	background-image: url('../images/icon_twitter.png');
+}

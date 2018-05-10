@@ -1,0 +1,12 @@
+{
+	"bootstrapped": true,
+	"in_process_packages":
+	[
+	],
+	"installed_packages":
+	[
+		"EJS 2",
+		"Emmet",
+		"Package Control"
+	]
+}

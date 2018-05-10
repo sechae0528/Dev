@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>ex07</title>
+	<script type="text/javascript">
+		function login() {
+			//alert("login 호출 성공!!!");
+
+			if(frm1.id.value =="") {
+				alert("	ID 꼭 입력하세요!!!");
+				frm1.id.focus();
+				return false;
+			}
+			if(frm1.id.value.length <8 \\ frm1.id.value.length > 16) {
+				alert("ID는 8글자 이상 16글자 이하로 입력하세요!!!");
+				frm1.id.focus();
+				return flase;
+			}
+		    if(frm1.pw.value =="") {
+				alert("	PW 꼭 입력하세요!!!");
+				frm1.pw.focus();
+				return false;
+			}
+			return true;
+		}
+
+	</script>
+</head>
+<body>
+<h1>로그인</h1>
+<form action="" method="post" name="frm1" onsubmit=" return login()">
+<!-- onsubmit : 전송버튼을 누르면 -->
+<table width="300" border="1">
+	<tr>
+		<td>ID</td>
+		<td><input type="text" name="id"></td>
+	</tr>
+	<tr>
+		<td>PW</td>
+		<td><input type="password" name="pw"></td>
+	</tr>
+	<tr>
+		<td colspan="2">
+			<input type="submit" value="로그인" onclick="login()">
+			<input type="reset" value="취소">
+		</td>
+	</tr>
+</table>
+</body>
+</html>

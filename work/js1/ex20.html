@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>prototype의 멤버</title>
+</head>
+<body>
+<script>
+ function Rectangle(x,y,w,h){
+ 	this.pointX = x;
+ 	this.pointY = y;
+ 	this.width = w;
+ 	this.height = h;
+
+ }
+ Rectangle.prototype.area = function(){
+ 	return 'Rectangle: {pointX: ' + this.pointX + ', pointY:' + this.pointY +' width: '+this.width+', height: '+this.height+'}';
+ }
+ Rectangle.prototype.area = function() {
+ 	return this.width*this.height;
+ }
+
+ for(var prop in Rectangle.prototype) {
+ 	document.writeln(prop+"<br>");
+ }
+
+ var rec1 = new Rectangle(100, 120, 20, 30);
+ for (var prop in rec1){
+ 	document.writeln(prop+"<br>");
+ }
+ document.writeln("<br>");
+ document.writeln('Rectangle.prototype.constructor:', "<br>", Rectangle.prototype.constructor,"<br>");
+ document.writeln('rec1.prototype.constructor:', "<br>", rec1.constructor,"<br>");
+ console.log(rec1);
+</script>
+
+</body>
+</html>

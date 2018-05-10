@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title><%= title %></title>
+    <link rel='stylesheet' href='/stylesheets/style.css' />
+  </head>
+  <body>
+    <h1><%= title %></h1>
+    <a href="/writeform">방명록 쓰기</a><br><br>
+    <%
+      for(var i = 0; i < rows.length; i++){
+        var row = rows[i];
+
+     %>
+      <div>
+        no : <%=row.no%> name : <%=row.name%> title : <%=row.title%>
+        <p><%=row.content%></p>
+      </div>
+      <hr>
+     <%
+      }
+
+
+    %>
+
+  </body>
+</html>

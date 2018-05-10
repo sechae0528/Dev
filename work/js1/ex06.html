@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>ex06</title>
+	<script type="text/javascript">
+		function calc() {
+			//alert("calc 호출 성공!!!");
+			var begin = document.getElementById("begin"); // id에 의해서 Element(태그)를 가져온다.
+			var end = document.getElementById("end"); // id에 의해서 Element(태그)를 가져온다.
+
+			if(begin.valu == ""){
+				alert("시작값을 숫자를 입력하세요!!!");
+				begin.focus();
+				return;
+			}
+			if(end.valu == ""){
+				alert("종료값을 숫자를 입력하세요!!!");
+				end.focus();
+				return;
+
+		}
+		var sum = 0;
+		var beginValue = parseInt(begin.value); //parseInt : 해석해서 int 로 바꾸겠다.
+		var endValue = end.value;
+		for(var i = beginValue; i <= endValue; i++){
+			sum += i;
+		}//for
+		var result = document.getElementById("result");
+		result.innerHTML = sum;
+	}//calc
+
+	</script>
+</head>
+<body>
+<h1>? ~? 합계 구하기 </h1> <!-- td = table data, tr = table row, colspan = 칸 합치기,
+                                id : 유일(컨트롤시 사용), class : 여러개 사용가능(디자인 적용시 사용) -->
+<table width="400" border="1">
+  <tr>
+        <td>시작값</td>
+        <td><input type="text" id="begin"></td>
+        </tr>
+        <tr>
+            <td>종료값</td>
+            <td><input type="text" id="end"></td>
+            </tr>
+
+        <tr>
+         <td colspan="2"><input type="button" id="btn" value="계산하기" onclick="calc()" ></td>
+         <!-- on : ~할 때 , onclick 클릭할 때  -->
+         </tr>
+         <tr>
+           <td colspan="2">&nbsp;<span id="result"></span></td>
+           <!-- &nbsp : 한 칸 띄우기 -->
+           </tr>
+           </table>
+</body>
+</html>

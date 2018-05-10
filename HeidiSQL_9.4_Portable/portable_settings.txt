@@ -1,0 +1,148 @@
+LastSessions<|||>1<|||>mydb
+LastActiveSession<|||>1<|||>mydb
+ColWidths_connform.ListSessions<|||>1<|||>163,50,50,50,50,50,53
+ColsVisible_connform.ListSessions<|||>1<|||>0
+ColPositions_connform.ListSessions<|||>1<|||>0,1,2,3,4,5,6
+ColSort_connform.ListSessions<|||>1<|||>0,0
+FontSize<|||>3<|||>15
+SQL Attr Comment Foreground<|||>3<|||>8421504
+SQL Attr Comment Background<|||>3<|||>536870911
+SQL Attr Comment Style<|||>3<|||>2
+SQL Attr ConditionalComment Foreground<|||>3<|||>8421504
+SQL Attr ConditionalComment Background<|||>3<|||>536870911
+SQL Attr ConditionalComment Style<|||>3<|||>2
+SQL Attr DataType Foreground<|||>3<|||>128
+SQL Attr DataType Background<|||>3<|||>536870911
+SQL Attr DataType Style<|||>3<|||>1
+SQL Attr DefaultPackages Foreground<|||>3<|||>536870911
+SQL Attr DefaultPackages Background<|||>3<|||>536870911
+SQL Attr DefaultPackages Style<|||>3<|||>1
+SQL Attr DelimitedIdentifier Foreground<|||>3<|||>32896
+SQL Attr DelimitedIdentifier Background<|||>3<|||>536870911
+SQL Attr DelimitedIdentifier Style<|||>3<|||>0
+SQL Attr Exception Foreground<|||>3<|||>536870911
+SQL Attr Exception Background<|||>3<|||>536870911
+SQL Attr Exception Style<|||>3<|||>2
+SQL Attr Function Foreground<|||>3<|||>8388608
+SQL Attr Function Background<|||>3<|||>536870911
+SQL Attr Function Style<|||>3<|||>1
+SQL Attr Identifier Foreground<|||>3<|||>32896
+SQL Attr Identifier Background<|||>3<|||>536870911
+SQL Attr Identifier Style<|||>3<|||>0
+SQL Attr Number Foreground<|||>3<|||>8388736
+SQL Attr Number Background<|||>3<|||>536870911
+SQL Attr Number Style<|||>3<|||>0
+SQL Attr PLSQL-ReservedWord Foreground<|||>3<|||>536870911
+SQL Attr PLSQL-ReservedWord Background<|||>3<|||>536870911
+SQL Attr PLSQL-ReservedWord Style<|||>3<|||>1
+SQL Attr ProcName Foreground<|||>3<|||>536870911
+SQL Attr ProcName Background<|||>3<|||>536870911
+SQL Attr ProcName Style<|||>3<|||>0
+SQL Attr ReservedWord Foreground<|||>3<|||>16711680
+SQL Attr ReservedWord Background<|||>3<|||>536870911
+SQL Attr ReservedWord Style<|||>3<|||>1
+SQL Attr Space Foreground<|||>3<|||>536870911
+SQL Attr Space Background<|||>3<|||>536870911
+SQL Attr Space Style<|||>3<|||>0
+SQL Attr SQLPlus-Command Foreground<|||>3<|||>536870911
+SQL Attr SQLPlus-Command Background<|||>3<|||>536870911
+SQL Attr SQLPlus-Command Style<|||>3<|||>1
+SQL Attr String Foreground<|||>3<|||>32768
+SQL Attr String Background<|||>3<|||>536870911
+SQL Attr String Style<|||>3<|||>0
+SQL Attr Symbol Foreground<|||>3<|||>16711680
+SQL Attr Symbol Background<|||>3<|||>536870911
+SQL Attr Symbol Style<|||>3<|||>0
+SQL Attr TableName Foreground<|||>3<|||>16711935
+SQL Attr TableName Background<|||>3<|||>536870911
+SQL Attr TableName Style<|||>3<|||>0
+SQL Attr Variable Foreground<|||>3<|||>8388736
+SQL Attr Variable Background<|||>3<|||>536870911
+SQL Attr Variable Style<|||>3<|||>0
+FieldEditor_Set<|||>3<|||>1
+LineBreakStyle<|||>3<|||>1
+ColWidths_frmTableEditor.listColumns<|||>1<|||>38,100,154,90,60,65,50,117,130,140,100,100
+ColsVisible_frmTableEditor.listColumns<|||>1<|||>0,1,2,3,4,5,6,7,8,9,10,11
+ColPositions_frmTableEditor.listColumns<|||>1<|||>0,1,2,3,4,5,6,7,8,9,10,11
+ColSort_frmTableEditor.listColumns<|||>1<|||>-1,0
+ColWidths_frmTableEditor.treeIndexes<|||>1<|||>344,100,80
+ColsVisible_frmTableEditor.treeIndexes<|||>1<|||>0,1,2
+ColPositions_frmTableEditor.treeIndexes<|||>1<|||>0,1,2
+ColSort_frmTableEditor.treeIndexes<|||>1<|||>-1,0
+ColWidths_frmTableEditor.listForeignKeys<|||>1<|||>114,80,100,80,80,80
+ColsVisible_frmTableEditor.listForeignKeys<|||>1<|||>0,1,2,3,4,5
+ColPositions_frmTableEditor.listForeignKeys<|||>1<|||>0,1,2,3,4,5
+ColSort_frmTableEditor.listForeignKeys<|||>1<|||>-1,0
+CoolBand0Index<|||>3<|||>0
+CoolBand0Break<|||>3<|||>1
+CoolBand0Width<|||>3<|||>1914
+CoolBand1Index<|||>3<|||>1
+CoolBand1Break<|||>3<|||>1
+CoolBand1Width<|||>3<|||>1914
+querymemoheight<|||>3<|||>317
+MainWinOnMonitor<|||>3<|||>0
+MainWinLeft<|||>3<|||>339
+MainWinTop<|||>3<|||>174
+ColWidths_MainForm.ListDatabases<|||>1<|||>150,80,50,50,50,50,50,50,50,50,120
+ColsVisible_MainForm.ListDatabases<|||>1<|||>0,1,2,3,4,5,6,7,8,9,10
+ColPositions_MainForm.ListDatabases<|||>1<|||>0,1,2,3,4,5,6,7,8,9,10
+ColSort_MainForm.ListDatabases<|||>1<|||>0,0
+ColWidths_MainForm.ListVariables<|||>1<|||>160,200,275
+ColsVisible_MainForm.ListVariables<|||>1<|||>0,1,2
+ColPositions_MainForm.ListVariables<|||>1<|||>0,1,2
+ColSort_MainForm.ListVariables<|||>1<|||>0,0
+ColWidths_MainForm.ListStatus<|||>1<|||>160,275,100,100
+ColsVisible_MainForm.ListStatus<|||>1<|||>0,1,2,3
+ColPositions_MainForm.ListStatus<|||>1<|||>0,1,2,3
+ColSort_MainForm.ListStatus<|||>1<|||>0,0
+ColWidths_MainForm.ListProcesses<|||>1<|||>70,80,80,80,80,50,50,145
+ColsVisible_MainForm.ListProcesses<|||>1<|||>0,1,2,3,4,5,6,7
+ColPositions_MainForm.ListProcesses<|||>1<|||>0,1,2,3,4,5,6,7
+ColSort_MainForm.ListProcesses<|||>1<|||>0,1
+ColWidths_MainForm.ListCommandStats<|||>1<|||>120,100,100,100,215
+ColsVisible_MainForm.ListCommandStats<|||>1<|||>0,1,2,3,4
+ColPositions_MainForm.ListCommandStats<|||>1<|||>0,1,2,3,4
+ColSort_MainForm.ListCommandStats<|||>1<|||>1,1
+ColWidths_MainForm.ListTables<|||>1<|||>120,70,70,120,120,70,100,50,70,70,70,70,70,90,120,70,70,70,50
+ColsVisible_MainForm.ListTables<|||>1<|||>0,1,2,3,4,5,6,18
+ColPositions_MainForm.ListTables<|||>1<|||>0,1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18
+ColSort_MainForm.ListTables<|||>1<|||>0,0
+sqloutheight<|||>3<|||>31
+MainWinMaximized<|||>3<|||>1
+Servers\mydb\SessionCreated<|||>1<|||>2017-07-06 14:44:29
+Servers\mydb\Host<|||>1<|||>127.0.0.1
+Servers\mydb\WindowsAuth<|||>3<|||>0
+Servers\mydb\User<|||>1<|||>root
+Servers\mydb\Password<|||>1<|||>343536373
+Servers\mydb\LoginPrompt<|||>3<|||>0
+Servers\mydb\Port<|||>1<|||>3306
+Servers\mydb\NetType<|||>3<|||>0
+Servers\mydb\Compressed<|||>3<|||>0
+Servers\mydb\LocalTimeZone<|||>3<|||>0
+Servers\mydb\QueryTimeout<|||>3<|||>0
+Servers\mydb\KeepAlive<|||>3<|||>0
+Servers\mydb\FullTableStatus<|||>3<|||>1
+Servers\mydb\Databases<|||>1<|||>
+Servers\mydb\Comment<|||>1<|||>
+Servers\mydb\StartupScriptFilename<|||>1<|||>
+Servers\mydb\SSHtunnelHost<|||>1<|||>
+Servers\mydb\SSHtunnelHostPort<|||>3<|||>0
+Servers\mydb\SSHtunnelUser<|||>1<|||>
+Servers\mydb\SSHtunnelPassword<|||>1<|||>5
+Servers\mydb\SSHtunnelTimeout<|||>3<|||>4
+Servers\mydb\SSHtunnelPrivateKey<|||>1<|||>
+Servers\mydb\SSHtunnelPort<|||>3<|||>3307
+Servers\mydb\SSL_Active<|||>3<|||>0
+Servers\mydb\SSL_Key<|||>1<|||>
+Servers\mydb\SSL_Cert<|||>1<|||>
+Servers\mydb\SSL_CA<|||>1<|||>
+Servers\mydb\SSL_Cipher<|||>1<|||>
+Servers\mydb\ServerVersionFull<|||>1<|||>5.7.18-log - MySQL Community Server (GPL)
+Servers\mydb\ConnectCount<|||>3<|||>4
+Servers\mydb\ServerVersion<|||>3<|||>50718
+Servers\mydb\LastConnect<|||>1<|||>2017-07-07 13:32:44
+Servers\mydb\lastUsedDB<|||>1<|||>mobiledb
+Servers\mydb\QueryHistory\1<|||>1<|||>2017-07-06 15:21:55|mobiledb|297|create table guestbook(<{{{><}}}> no int auto_increment,<{{{><}}}> name varchar(10) not null,<{{{><}}}> title varchar(50) not null,<{{{><}}}> content varchar(2000) not null,<{{{><}}}> regdate datetime default now(),<{{{><}}}> primary key(no)<{{{><}}}> );
+Servers\mydb\QueryHistory\2<|||>1<|||>2017-07-06 15:46:59|mobiledb|0|select*from guestbook
+Servers\mydb\QueryHistory\3<|||>1<|||>2017-07-06 16:24:45|mobiledb|0|select 1 + 1 AS solution
+Servers\mydb\QueryHistory\4<|||>1<|||>2017-07-06 17:36:11|mobiledb|0|select * from guestbook

@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>jQuery</title>
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+	<script>
+		$(function(){
+			console.log('ok')
+			// http://Localhost:3000/opi1
+			$.get("/api1", function(data){
+				alert("Data Loaded:" +data);//hello
+			});
+
+		});
+	</script>
+</head>
+<body>
+jQuery Exam
+</body>
+</html>
